@@ -1,5 +1,8 @@
 # Give Me Some Credit
 
+## Features weight by varying C values
+![Features](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/plot_C2.png)
+
 ### Instructions: Set 1: [Classifiers] [Due by 3.21 Tues]
   * The goal of this HW is to be familiar with the basic classifiers __PML__ Ch 3. 
   * For this HW, we will use [Give Me Some Credit]([http://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data](https://www.kaggle.com/datasets/brycecf/give-me-some-credit-dataset)) on Kaggle. You may download from Kaggle link or CMS.
