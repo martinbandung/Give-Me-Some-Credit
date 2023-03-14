@@ -2,6 +2,7 @@
 
 ## Features weight by varying C values
 ![Features](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/plot_C2.png)
+![Features more C range](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/plot_C.png)
 
 ### Instructions: Set 1: [Classifiers] [Due by 3.21 Tues]
   * The goal of this HW is to be familiar with the basic classifiers __PML__ Ch 3. 
