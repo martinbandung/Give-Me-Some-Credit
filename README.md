@@ -1,6 +1,6 @@
-# Give-Me-Some-Credit
+# Give Me Some Credit
 
-* ### Instructions: Set 1: [Classifiers]__ [Due by 3.21 Tues]
+### Instructions: Set 1: [Classifiers] [Due by 3.21 Tues]
   * The goal of this HW is to be familiar with the basic classifiers __PML__ Ch 3. 
   * For this HW, we will use [Give Me Some Credit]([http://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data](https://www.kaggle.com/datasets/brycecf/give-me-some-credit-dataset)) on Kaggle. You may download from Kaggle link or CMS.
   * Load `cs-training.csv` into a Pandas dataframe.
