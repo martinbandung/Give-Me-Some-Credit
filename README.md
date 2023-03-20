@@ -14,3 +14,8 @@
 ## Features weight by varying C values
 ![Features](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/plot_C2.png)
 ![Features more C range](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/plot_C.png)
+
+## Logistic Regression
+Logistic regression using two different values of C
+![Features](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr01.png)
+![Features more C range](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr02.png)
