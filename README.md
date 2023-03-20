@@ -18,9 +18,16 @@
 ## Logistic Regression
 Logistic regression using two different values of C
 
-![Features more C range](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr01.png)
+![LR1](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr01.png)
 
-![Features more C range](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr02.png)
+![LR2](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr02.png)
+
+## Decision tree
+Logistic regression using two different values of C
+
+![DT1](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/decision_depth5.png)
+
+![DT2](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/decision_depth1000.png)
 
 <!--
 <img src="https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr01.png" width="50" height="50">
