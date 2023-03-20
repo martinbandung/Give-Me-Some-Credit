@@ -22,7 +22,7 @@ Logistic regression using two different values of C
 
 ![Features more C range](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr02.png)
 
-<--!
+<!--
 <img src="https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr01.png" width="50" height="50">
 <img src="https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr02.png" width="50" height="50">
 -->
