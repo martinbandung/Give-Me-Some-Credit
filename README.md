@@ -23,14 +23,14 @@ Logistic regression using two different values of C
 ![LR2](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr02.png)
 
 ## Decision tree
-Logistic regression using two different values of C
+Decision tree using two different values of max_depth of the decision tree
 
 ![DT1](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/decision_depth5.png)
 
 ![DT2](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/decision_depth1000.png)
 
 ## SVM
-Logistic regression using two different values of C
+SVM (linear kernel) using two different values of C
 
 ![SVM1](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/svm_lin_c_0001.png)
 
