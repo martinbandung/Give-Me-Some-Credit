@@ -29,6 +29,13 @@ Logistic regression using two different values of C
 
 ![DT2](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/decision_depth1000.png)
 
+## SVM
+Logistic regression using two different values of C
+
+![SVM1](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/svm_lin_c_0001.png)
+
+![SVM2](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/svm_lin_c_10.png)
+
 <!--
 <img src="https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr01.png" width="50" height="50">
 <img src="https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/lr02.png" width="50" height="50">
