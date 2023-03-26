@@ -63,7 +63,7 @@ The TPR vs FPR curve also can be drawn
 ![TPR vs FPR](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/TPRvsFPR.png)
 
 ### Conclusion
-Overall, the workflow can be streamlined using pipeline function. The highest performance was achieved by using majority classifier which was 0.84 (ROC AUC). The majority classifier which include the other 3 classifier can increased the accuracy of the model for around 6%. The accuracy of the model may increase through increasing more classifier in the majority class clasifier. However, more computation source is needed to do the task.
+Overall, the workflow can be streamlined using pipeline function. The highest ROC AUC was achieved by using majority classifier which was 0.84. The accuracy of three models almost the same which is around 70%. The accuracy of the model may increase through increasing more classifier in the majority class clasifier. However, more computation source is needed to do the task.
 
 ### Appendices
 Some supplementary figures for illustration during processing the data.
