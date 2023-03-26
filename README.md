@@ -75,10 +75,13 @@ Some supplementary figures for illustration during processing the data.
 ![Validation curve](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/validation_curve.png)
 
 #### Confusion Matrix
+
 Decision tree confusion matrix
+
 ![Confusion Matrix Decision tree](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/confusion_matrix_dt.png)
 
 Logistic regression confusion matrix
+
 ![Confusion Matrix Logistic regression](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/confusion_matrix_lr.png)
 
 
