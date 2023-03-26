@@ -1,4 +1,7 @@
 # Give Me Some Credit
+__Martin Adrian (2201213787)__
+
+[Set 2 Notebook File Submission](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/Classifiers2.ipynb)
 
 ## Set 2: [PCA/Hyperparameter/CV] [Due by 3.29 Wed]
   * The goal of this HW is to be familiar with PCA (feature extraction), grid search, pipeline, k-fold CV. 
@@ -18,7 +21,7 @@ After the downsampling, the total number of data become around 12000.
 
 ### Optimum hyperparameter using grid search
 
-I used gridsearch to find the optimum parameter for 3 classifier (LR, SVM, Decision tree). Some parameter that was varied was `C`, tree `max depth`, and the tree classifier 'criterion'. I also used the pipeline to choose 3 feature using PCA and then 5-fold cross validation.
+I used gridsearch to find the optimum parameter for 3 classifier (LR, SVM, Decision tree). Some parameter that was varied was `C`, tree `max depth`, and the tree classifier `criterion`. I also used the pipeline to choose 3 feature using PCA and then 5-fold cross validation.
 
 The output of the optimum accuracy were as follows:
 
@@ -84,6 +87,7 @@ Logistic regression confusion matrix
 
 ![Confusion Matrix Logistic regression](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/confusion_matrix_lr.png)
 
+[Set 1 Notebook File Submission](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/Classifiers.ipynb)
 
 ## Set 1: [Classifiers] [Due by 3.21 Tues]
   * The goal of this HW is to be familiar with the basic classifiers __PML__ Ch 3. 
