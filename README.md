@@ -30,7 +30,7 @@ The output of the optimum accuracy were as follows:
 0.7048177276798568
 {'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 10.0}`
 
-`\n
+`
 0.7153645656263456
 {'svc__C': 10.0}`
 
