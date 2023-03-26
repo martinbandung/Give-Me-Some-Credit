@@ -18,27 +18,27 @@ After the downsampling, the total number of data become around 12000.
 
 ### Optimum hyperparameter using grid search
 
-I used gridsearch to find the optimum parameter for 3 classifier (LR, SVM, Decision tree). Some parameter that was varied was 'C', tree 'max depth', and the tree classifier 'criterion'. I also used the pipeline to choose 3 feature using PCA and then 5-fold cross validation.
+I used gridsearch to find the optimum parameter for 3 classifier (LR, SVM, Decision tree). Some parameter that was varied was `C`, tree `max depth`, and the tree classifier 'criterion'. I also used the pipeline to choose 3 feature using PCA and then 5-fold cross validation.
 
 The output of the optimum accuracy were as follows:
-'0.6946431264639525
-{'logisticregression__C': 10.0}'
+`0.6946431264639525
+{'logisticregression__C': 10.0}`
 
-'0.7048177276798568
-{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 10.0}'
+`0.7048177276798568
+{'decisiontreeclassifier__criterion': 'entropy', 'decisiontreeclassifier__max_depth': 10.0}`
 
-'0.7153645656263456
-{'svc__C': 10.0}'
+`0.7153645656263456
+{'svc__C': 10.0}`
 
 ### Majority Vote Classifier
 
 I apply the optimum hyperparameter to the pipeline and do the majority vote classifier. This classifier composed of the three classifier that previously optimised. The result was shown in terms of area under Receiver Operator Characteristic (ROC) curve.
-'
+`
 ROC AUC: 0.77 (+/- 0.00418) [Logistic regression]
 ROC AUC: 0.75 (+/- 0.00615) [Decision tree]
 ROC AUC: 0.78 (+/- 0.00497) [SVC]
 ROC AUC: 0.84 (+/- 0.00827) [Majority voting]
-'
+`
 
 ![ROC AUC](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/ROC_AUC.png)
 
@@ -46,7 +46,7 @@ The TPR vs FPR curve also can be drawn
 ![TPR vs FPR](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/TPRvsFPR.png)
 
 ### Conclusion
-Overall, the workflow can be streamlined using pipeline function. The majority classifier which include the other 3 classifier can increased the accuracy of the model for around 6%. The accuracy of the model may increase through increasing more classifier in the majority class clasifier. However, more computation source is needed to do the task.
+Overall, the workflow can be streamlined using pipeline function. The highest performance was achieved by using majority classifier which was 0.84 (ROC AUC). The majority classifier which include the other 3 classifier can increased the accuracy of the model for around 6%. The accuracy of the model may increase through increasing more classifier in the majority class clasifier. However, more computation source is needed to do the task.
 
 
 ## Set 1: [Classifiers] [Due by 3.21 Tues]
