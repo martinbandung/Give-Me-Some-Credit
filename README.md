@@ -1,6 +1,17 @@
 # Give Me Some Credit
 __Martin Adrian (2201213787)__
 
+## New update 2023 August
+
+Modification using WOE transform and classifying using simple neural network.
+
+The bad rate is about 6.77% (good 93.23%). Data preprocessing for ML model is using some transformer (toad dt) to binned the features values. The ROC AUC is a little bit (2%) better than the majority classifier in previous jupyter notebook. Nevertheless, it should be noted that even with unbalance dataset, this model could perform well without any resampling.
+
+NN performance ==> acc:	 0.938, f1:	 0.251, AUC:	 0.851
+
+![ROC AUC+NN](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/ROC_AUC_new.png)
+![Confusion matrice](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/images/confusion_matrix_dt_nn_bin1.png)
+
 [Set 2 Notebook File Submission](https://github.com/martinbandung/Give-Me-Some-Credit/blob/main/code/Classifiers2.ipynb)
 
 ## Set 2: [PCA/Hyperparameter/CV] [Due by 3.29 Wed]
